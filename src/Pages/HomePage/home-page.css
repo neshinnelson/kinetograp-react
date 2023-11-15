@@ -1,0 +1,19 @@
+/* .home-page-main-navbar{
+    width: 100%;
+
+    position: fixed;
+    z-index: 2;
+} */
+
+.movie_img>img{
+    width:10px;
+}
+
+.small-carousel{
+    margin-bottom: 10px;
+}
+
+@media screen 
+and(max-width:480px){
+    
+}

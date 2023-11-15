@@ -1,0 +1,26 @@
+.main_container{
+    width: 100%;
+    padding-left: 20px;
+    background: linear-gradient(#000000 50%,transparent);
+    overflow-x: scroll;
+    overflow-y:visible;
+}
+.main_container::-webkit-scrollbar{
+    display: none;
+}
+
+.movie_list{
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@media screen
+and (min-width:481px)
+and (max-width:766px){
+
+
+}

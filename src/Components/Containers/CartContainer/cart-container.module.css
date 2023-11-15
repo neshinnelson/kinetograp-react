@@ -1,0 +1,21 @@
+.container{
+    width: 100%;
+    height: 100%;
+    /* background-color:#a19c87; */
+}
+.explore{
+    width: 100%;
+    height:410px;
+    padding: 5px;
+    /* background-color: chartreuse; */
+    overflow-y: scroll;
+}
+.explore::-webkit-scrollbar{
+    display: none;
+}
+.total{
+    width: 100%;
+    height: 70px;
+    border-radius: 5px;
+    background-color: rgb(95, 158, 160);
+}

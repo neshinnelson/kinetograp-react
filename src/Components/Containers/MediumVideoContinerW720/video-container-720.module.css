@@ -1,0 +1,127 @@
+.container{
+    width: 100%;
+    /* height: 200px; */
+    background-color: blanchedalmond;
+    position: relative;
+}
+
+.video_box{
+    /* background: linear-gradient(#000000 50%,transparent); */
+    background-color:black;
+}
+
+.video{
+    width: 720px;
+    /* height: 480px; */
+}
+
+.mute_btn img{
+    width: 25px;
+    filter: invert(100%);
+
+}
+.mute_btn{
+    position: absolute;
+    right: 50px;
+    bottom: 150px;
+    opacity: 75%;
+}
+
+.gradient{
+    width: 100%;
+    height: 100%;
+   background: linear-gradient(transparent 80%, var(--bluegreen));
+   position: absolute;
+   bottom: 0;
+}
+
+.portrait{
+    border-radius: 5px;
+    position: absolute;
+    left: 100px;
+    bottom: -250px;
+}
+.portrait img{
+    width: 216px;
+    border-radius: 5px;
+}
+
+.buttons{
+    padding: 5px 15px;
+}
+.buttons img{
+    width: 35px;
+    filter: invert(100%);
+}
+.buttons>button{
+    transition: 300ms;
+}
+.buttons>button:hover{
+    filter:invert(50%)
+}
+
+@media screen 
+and (max-width:480px){
+    .video{
+        width: 380px;
+    }
+    .mute_btn{
+        padding: 5px 10px;
+        right: 30px;
+        bottom: 50px;
+    }
+    .portrait{
+        left: 30px;
+        bottom: -140px;
+    }
+    .portrait img{
+        width: 96px;
+        border-radius: 5px;
+    }
+    .buttons{
+        padding: 5px 10px;
+    }
+    .buttons img{
+        width: 15px;
+        filter: invert(100%);
+    }
+    
+}
+
+
+@media screen 
+and (min-width:481px)
+and (max-width:767px){
+    .video{
+        width: 480px;
+    }
+    .mute_btn{
+        padding: 5px 10px;
+        right: 30px;
+        bottom: 50px;
+    }
+    .portrait{
+        left: 50px;
+        bottom: -140px;
+    }
+    .portrait img{
+        width: 116px;
+        border-radius: 5px;
+    }
+    .buttons{
+        padding: 5px 10px;
+    }
+    .buttons img{
+        width: 20px;
+        filter: invert(100%);
+    }
+}
+
+@media screen 
+and (min-width:768px)
+and (max-width:1023px){
+    .portrait{
+        left: 50px;
+        bottom: -270px;
+    }
+}

@@ -1,0 +1,139 @@
+.main_container{
+    width: 100%;
+    background-color: rgb(50, 60, 205);
+    position: relative;
+}
+
+.movie_details{
+    width: 100%;
+    padding-left: 100px;
+    color: white;
+
+    position: absolute;
+    bottom: 25%;
+    
+}
+
+.btn_movie_details{
+    padding: 5px;
+    background-color: #00ff62;
+}
+
+.movie_name{
+    width: 500px;
+    /* background-color: red; */
+}
+.play_button_box{
+    width: fit-content;
+
+    display: flex;
+    align-items:center;
+}
+
+.movie_details img{
+    filter: invert(100%);
+}
+
+/* .portrait_image{
+    position: absolute;
+    left: 100px;
+    bottom: -150px;
+
+}
+
+.portrait_image img{
+    width: 216px;
+} */
+
+@media screen
+and (max-width:480px){
+
+.movie_details{
+    padding-left: 30px;
+    /* background-color: #00ff62; */
+    bottom: 10%;
+}
+.movie_name{
+    width: 200px;
+    /* background-color: coral; */
+}
+.movie_name>h2{
+    font-size:15px ;
+}
+.movie_name>p{
+    font-size: 7px;
+}
+.movie_details button{
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-size: 10px;
+}
+.movie_details img{
+    width: 15px;
+}
+}
+
+@media screen
+and (min-width:481px)
+and (max-width:766px){
+
+.movie_details{
+    padding-left: 30px;
+    /* background-color: #00ff62; */
+    bottom: 10%;
+}
+.movie_name{
+    width: 300px;
+    /* background-color: coral; */
+}
+.movie_name>h2{
+    font-size:25px ;
+}
+.movie_name>p{
+    font-size: 10px;
+}
+.movie_details button{
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-size: 10px;
+}
+.movie_details img{
+    width: 15px;
+}
+}
+
+@media screen
+and (min-width:767px)
+and (max-width:1023px){
+
+.movie_details{
+    padding-left: 50px;
+    /* background-color: #00ff62; */
+    bottom: 10%;
+}
+.movie_name{
+    width: 350px;
+    /* background-color: coral; */
+}
+.movie_name>h2{
+    font-size:30px ;
+}
+.movie_name>p{
+    font-size: small;
+}
+    
+}
+
+@media screen 
+and (min-width:1024px)
+and (max-width:1279px){
+    .main_container{
+        background-color: #00ff62;
+    }
+    .movie_details{
+        bottom: 15%;
+    }
+    .movie_name>h2{
+        font-size:40px;
+    }
+}

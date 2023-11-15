@@ -1,0 +1,18 @@
+.container{
+    padding: 10px;
+    min-width: 100px;
+    width: max-content;
+    text-align: center;
+    background-color: var(--bluegreen);
+    /* opacity: 85%; */
+    border-radius: 5px;
+    outline: 1px solid var(--bluegreen);
+    outline-offset: 3px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.container>p{
+    font-size: 12px;
+}

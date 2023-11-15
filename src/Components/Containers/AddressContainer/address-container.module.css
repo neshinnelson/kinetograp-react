@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 10px 25px;
+    /* background-color: brown; */
+    /* position: relative; */
+}
+.edit{
+    /* background-color: chocolate; */
+    /* position: absolute;
+    top: 0; */
+}
+form{
+    width:350px;
+
+}
+.edit_li{
+    /* background-color: rgb(58, 66, 50); */
+    display: grid;
+    grid-template-columns:1fr 3fr;
+}
+.btns{
+    width: 350px;
+    /* background-color: rgb(163, 191, 241); */
+}

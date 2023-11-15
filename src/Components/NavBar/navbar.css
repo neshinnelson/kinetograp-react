@@ -1,0 +1,8 @@
+#site-icon{
+    width: 200px;
+}
+
+.navbar-comp{
+    padding: 1rem 2rem;
+    background: linear-gradient(var(--bluegreen)1%,#ffffff00);
+}
